@@ -118,3 +118,8 @@ Please include reproducible steps, browser version, provider/page context, and e
 This project is licensed under the MIT License. See [`LICENSE`](LICENSE).
 
 Copyright (c) 2026 Siddhesh Sachin Chakor.
+
+
+## Extension icons
+
+The Chrome extension uses the branded PNG assets in `icons/` at 16, 32, 48 and 128 pixels. These are declared in the Manifest V3 `icons` and `action.default_icon` fields.
