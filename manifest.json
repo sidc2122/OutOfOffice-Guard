@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "OutOfOffice Guard",
+  "version": "1.2.0",
+  "description": "Locally checks out-of-office replies and offers opt-in live protection.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {"default_title": "OutOfOffice Guard", "default_popup": "popup.html"}
+}

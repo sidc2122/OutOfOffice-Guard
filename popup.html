@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OutOfOffice Guard</title><link rel="stylesheet" href="styles.css"></head>
+<body><main>
+<header><div class="mark">OO</div><div><h1>OutOfOffice Guard</h1><p class="sub">A privacy check before switching on auto-reply.</p></div></header>
+<button id="live" class="live">Start live protection on this page</button>
+<p id="liveStatus" class="hint">Opt in on an automatic-reply settings page. It only monitors a field that appears to be an OOO message.</p>
+<button id="scan" class="secondary">Scan this page for an OOO message</button>
+<p id="scanStatus" class="hint">Page scanning is best-effort. Manual paste is always available.</p>
+<label for="message">Your automatic reply</label><textarea id="message" rows="6" placeholder="Paste your out-of-office message…"></textarea>
+<button id="analyze" class="primary">Check my reply</button>
+<section id="results" class="results hidden" aria-live="polite">
+<div class="scoreline"><div><p class="eyebrow">PRIVACY REVIEW</p><h2 id="scoreTitle">Review complete</h2></div><span id="scoreBadge" class="badge">—</span></div>
+<p id="summary" class="summary"></p><div id="findings"></div>
+<div class="rewrite"><div class="rewriteHead"><h3>Safer alternative</h3><button id="copy" class="copy">Copy</button></div><textarea id="rewriteText" rows="4" readonly></textarea><p class="hint">Review before using. Scores are indicators, not guarantees.</p></div>
+</section><footer>Local analysis only · No message is uploaded</footer>
+</main><script src="popup.js"></script></body></html>
