@@ -14,44 +14,9 @@ OutOfOffice Guard helps people review automatic replies before enabling them. It
 - **Safer wording suggestion:** the popup proposes a generic alternative for the user to review and copy.
 - **Local-first processing:** the extension contains no backend and does not intentionally transmit message text to a remote service.
 
-## Product Demonstration
-
-Watch OutOfOffice Guard detect potentially sensitive information in automatic replies.
-
-[▶ Watch the demonstration video](demo/OutOfOffice-Guard-Demo.mp4)
-
 ## Screenshots
 
-### Extension Popup
-
-The main interface for manually checking an out-of-office message.
-
-![OutOfOffice Guard Extension Popup](screenshots/01-extension-popup.png)
-
-### Live Protection — Gmail
-
-Real-time detection while editing a Gmail Vacation Responder message.
-
-![Live Protection Gmail](screenshots/02-live-protection-gmail.png)
-
-### Manual Message Analysis
-
-Enter an automatic reply and run a manual security check.
-
-![Manual Scan Input](screenshots/03-manual-scan-input.png)
-
-### Security Findings
-
-Review detected disclosures, attention level, explanations and safer wording.
-
-![Security Findings](screenshots/04-manual-scan-findings.png)
-
-### Live Protection — Outlook
-
-Real-time detection while editing an Outlook Automatic Replies message.
-
-![Live Protection Outlook](screenshots/05-live-protection-outlook.png)
-
+Screenshots will be added to [`screenshots/`](screenshots/) as release evidence becomes available.
 
 ## Install locally (developer mode)
 
