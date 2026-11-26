@@ -1,3 +1,5 @@
+
+
 # OutOfOffice Guard
 
 **A privacy-first Chrome extension that checks out-of-office (OOO) replies for potentially sensitive disclosures.**
