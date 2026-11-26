@@ -4,7 +4,7 @@
 
 OutOfOffice Guard helps people review automatic replies before enabling them. It looks for patterns that may reveal precise absence dates, travel plans, personal contact details, unattended-property information, internal operational details, or credential-like strings.
 
-> **Status:** v1.2.0 — tested by the project author in their Chrome environment with Gmail and Outlook settings pages. This is an experimental, heuristic-based MVP, not a security guarantee or a formally validated provider integration.
+> **Status:** v1.2.1 — tested by the project author in their Chrome environment with Gmail and Outlook settings pages. This is an experimental, heuristic-based MVP, not a security guarantee or a formally validated provider integration.
 
 ## What it does
 
